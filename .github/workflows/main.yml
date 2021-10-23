@@ -23,7 +23,6 @@ jobs:
       run: |
         mvn install
         
-    - uses: actions/checkout@master
     - name: Run CloudDefense SCA
       uses: cdefense/actions/java@master
       with:
